@@ -17,7 +17,7 @@ body{
 }
 
 .dadFontSize{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .hotDogHero{
@@ -26,4 +26,14 @@ body{
 .noPadding{
         padding: 0 !important;
         margin: 0 !important;
+}
+.LinksSpacing {
+    padding-right: 8%;
+}
+.pageFont{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.headerFontSize{
+    font-size: 35px;
 }
