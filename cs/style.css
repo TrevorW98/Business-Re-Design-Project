@@ -1,8 +1,10 @@
-
-  .redText
-  {
-      color: red;
-  }
+a:hover{
+    color: rgb(208, 4, 4);
+}
+.redText
+{
+      color: rgb(208, 4, 4);
+}
 
 body{
     background-image: url(../images/textureWhite.jpg);
@@ -24,8 +26,8 @@ body{
     background-image: url(/images/hotDogHero.jpg);
 }
 .noPadding{
-        padding: 0 !important;
-        margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 .LinksSpacing {
     padding-right: 8%;
@@ -36,4 +38,31 @@ body{
 }
 .headerFontSize{
     font-size: 35px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.spaceBetween{
+    display: flex;
+    justify-content: space-apart;
+}
+.brandMargin{
+    margin-left: 140px;
+}
+.alertFont{
+    font-size: 25px;
+}
+.homeFont{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(208, 4, 4);
+}
+.ulMargin1{
+    margin-top: 25px;
+}
+.alertMarginLeft{
+    margin-left: 60px;
+}
+.alertMarginRight{
+    margin-right: 60px;
 }
