@@ -1,0 +1,25 @@
+
+  .redText
+  {
+      color: red;
+  }
+
+body{
+    background-image: url(../images/textureWhite.jpg);
+}
+
+.dadsFont{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.dadFontSize{
+    font-size: 35px;
+}
+
+.hotDogHero{
+    background-image: url(/images/hotDogHero.jpg);
+}
