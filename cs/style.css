@@ -1,25 +1,29 @@
-
-  .redText
-  {
-      color: red;
-  }
-
-body{
-    background-image: url(../images/textureWhite.jpg);
+.redText {
+  color: red;
 }
 
-.dadsFont{
-    font-family: 'Luckiest Guy', cursive;
+body {
+  background-image: url(../images/textureWhite.jpg);
 }
 
-.raleway{
-    font-family: 'Raleway', sans-serif;
+.dadsFont {
+  font-family: "Luckiest Guy", cursive;
 }
 
-.dadFontSize{
-    font-size: 35px;
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
 
-.hotDogHero{
-    background-image: url(/images/hotDogHero.jpg);
+.dadFontSize {
+  font-size: 35px;
+}
+
+.hotDogHero {
+  background-image: url(/images/hotDogHero.jpg);
+}
+
+.resizeCara {
+  width: 70%;
+  height: 70%;
+  padding: 50px;
 }
