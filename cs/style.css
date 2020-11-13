@@ -23,3 +23,7 @@ body{
 .hotDogHero{
     background-image: url(/images/hotDogHero.jpg);
 }
+.noPadding{
+        padding: 0 !important;
+        margin: 0 !important;
+}
