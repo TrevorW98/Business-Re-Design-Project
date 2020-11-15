@@ -23,15 +23,18 @@ body {
   background-image: url(/images/hotDogHero.jpg);
 }
 
-/* .resizeCara {
-  width: 70%;
-  height:   70%;
-  padding: 30px;
-} */
 
+
+.center{
+  display: flex;
+  justify-content: center;
+}
 
 .carousel{
 width: 640px;
 height:360px;
+}
 
+.border{
+  
 }
