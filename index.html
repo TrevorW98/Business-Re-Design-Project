@@ -18,7 +18,7 @@
 
 <body>
   <!-- Nav Bar for xl screens -->
-  <div class="container-fluid mb-4 d-none d-xl-block">
+  <div class="container-fluid mb-3 d-none d-xl-block">
     <div class="row">
       <div class="d-none d-sm-block"></div>
       <div class="col-12">
@@ -48,7 +48,7 @@
     </div>
   </div>
   <!-- Navbar for lg screens -->
-  <div class="container-fluid mb-4 d-none d-lg-block d-xl-none">
+  <div class="container-fluid mb-3 d-none d-lg-block d-xl-none">
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg">
@@ -77,7 +77,7 @@
     </div>
   </div>
   <!-- Navbar for medium -->
-  <div class="container-fluid mb-4 d-none d-sm-block d-lg-none">
+  <div class="container-fluid mb-3 d-none d-sm-block d-lg-none">
     <div class="row center">
       <div class="col-12 center">
         <nav class="navbar navbar-expand-lg">
@@ -106,7 +106,7 @@
     </div>
   </div>
   <!-- Nav for XS and small -->
-  <div class="container-fluid mb-4 d-block d-sm-none">
+  <div class="container-fluid mb-3 d-block d-sm-none">
     <div class="row center">
       <div class="col-12 center">
         <nav class="navbar navbar-expand-lg">
@@ -139,12 +139,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 noPadding">
-        <img src="./images/hotDogHero.jpg" alt="A delicious and extensive set of hot dogs." width="100%" height="auto">
+        <img src="./images/hotDogHero.jpg" alt="A delicious and extensive set of hot dogs." width="100%" height="100%">
       </div>
     </div>
   </div>
-  <!-- Covid Protocol and Hours -->
-  <div class="container-fluid mt-5">
+  <!-- Covid Protocol and Hours for lg and above -->
+  <div class="container-fluid d-none d-lg-block mt-5">
     <div class="row spaceBetween">
       <div class="col-1"></div>
       <div class="col-5 ">
@@ -178,7 +178,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-5">
         <div class="alert alert-primary rounded-lg" role="alert">
           <p class="alert-heading pageFont headerFontSize center">Hours</p>
@@ -231,6 +230,180 @@
         </div>
       </div>
       <div class="col-1"></div>
+    </div>
+  </div>
+  <!-- Covid protocol and hours for medium and sm -->
+  <div class="container-fluid d-none d-sm-block d-lg-none mt-3">
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont center">Covid-19 Protocol</p>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <p class="pageFont alertFont2">Due to the current pandemic, the following restrictions are in place to help
+                prevent the spread of Covid-19:</p>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Limited indoor seating
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Bartop closed
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Mask required for entery
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont center">Hours</p>
+          <hr>
+          <div class="row">
+            <div class="col-6 ">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Monday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Tuesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Wednesday: 9am-7pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Thursday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Friday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Saturday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Sunday: 10am-6pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Covid protocol and hours for xs -->
+  <div class="container-fluid d-block d-sm-none mt-3">
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont2 center">Covid-19 Protocol</p>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <p class="pageFont alertFont3">Due to the current pandemic, the following restrictions are in place to help
+                prevent the spread of Covid-19:</p>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Limited indoor seating
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Bartop closed
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Mask required for entery
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont2 center">Hours</p>
+          <hr>
+          <div class="row">
+            <div class="col-12">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Monday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Tuesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Wednesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Thursday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Friday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Saturday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Sunday: 10am-6pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Carousel Area -->
