@@ -48,7 +48,7 @@ body{
     justify-content: space-apart;
 }
 .brandMargin{
-    margin-left: 140px;
+    margin-left: 60px;
 }
 .alertFont{
     font-size: 25px;
@@ -65,4 +65,16 @@ body{
 }
 .alertMarginRight{
     margin-right: 60px;
+}
+.largeMargin{
+    margin-left: 30px;
+}
+.headerFontSm{
+    font-size: 30px
+}
+.dropdownMargin{
+    margin-top: 40px;
+}
+.smXsFont{
+    font-size: 30px;
 }
