@@ -8,6 +8,7 @@ a:hover{
 
 body{
     background-image: url(../images/textureWhite.jpg);
+    height: 100%;
 }
 
 .dadsFont{
@@ -22,8 +23,13 @@ body{
     font-size: 45px;
 }
 
-.hotDogHero{
-    background-image: url(/images/hotDogHero.jpg);
+.hero-image{
+    background-image: url("./images/hotDogHero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .noPadding{
     padding: 0 !important;
