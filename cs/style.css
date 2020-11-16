@@ -1,0 +1,86 @@
+a:hover{
+    color: rgb(208, 4, 4);
+}
+.redText
+{
+      color: rgb(208, 4, 4);
+}
+
+body{
+    background-image: url(../images/textureWhite.jpg);
+}
+
+.dadsFont{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.dadFontSize{
+    font-size: 45px;
+}
+
+.hotDogHero{
+    background-image: url(/images/hotDogHero.jpg);
+}
+.noPadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.LinksSpacing {
+    padding-right: 8%;
+}
+.pageFont{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.headerFontSize{
+    font-size: 35px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.spaceBetween{
+    display: flex;
+    justify-content: space-apart;
+}
+.brandMargin{
+    margin-left: 60px;
+}
+.alertFont{
+    font-size: 25px;
+}
+.homeFont{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(208, 4, 4);
+}
+.ulMargin1{
+    margin-top: 25px;
+}
+.alertMarginLeft{
+    margin-left: 60px;
+}
+.alertMarginRight{
+    margin-right: 60px;
+}
+.largeMargin{
+    margin-left: 30px;
+}
+.headerFontSm{
+    font-size: 30px
+}
+.dropdownMargin{
+    margin-top: 40px;
+}
+.smXsFont{
+    font-size: 30px;
+}
+.alertFont2{
+    font-size: 20px;
+}
+.alertFont3{
+    font-size: 15px;
+}
