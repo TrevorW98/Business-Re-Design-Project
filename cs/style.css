@@ -40,3 +40,8 @@ height:360px;
   width: 100%;
   height: auto;
 }
+
+.reviewText{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
