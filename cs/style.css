@@ -4,6 +4,7 @@
 
 body {
   background-image: url(../images/textureWhite.jpg);
+  background-repeat: repeat;
   
 }
 
@@ -30,11 +31,12 @@ body {
   justify-content: center;
 }
 
-.carousel{
+.carouselSize{
 width: 640px;
 height:360px;
 }
 
-.border{
-  
+.imageSize{
+  width: 100%;
+  height: auto;
 }
