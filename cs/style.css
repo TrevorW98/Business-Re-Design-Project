@@ -1,12 +1,13 @@
 a:hover{
     color: rgb(189, 9, 9);
 }
-button:hover{
-    color: rgb(189, 9, 9);
-}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(0, 0, 0);
+    margin: 1em 0; padding: 0; }
+    
 .redText
 {
-      color: rgb(189, 9, 9);
+    color: rgb(189, 9, 9);
 }
 
 body{
@@ -99,7 +100,7 @@ body{
 .menuHeader{
     font-size: 45px;
     font-family: 'Oswald', sans-serif;
-    color: rgb(189, 9, 9);
+    color: black;
 }
 .menuBG{
     background-color: #f5f7d7;
@@ -108,4 +109,10 @@ body{
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     color: black;
+}
+.alertColor{
+    background-color: #f5f7d7;
+}
+.menuXsFont{
+    font-size: 20px;
 }
