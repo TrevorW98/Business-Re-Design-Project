@@ -101,7 +101,6 @@ body{
 
 .awardBg{
   background-color: #CCE5FF;
-  
 }
 .awardTwentyOneFour{
   width: 88%;
@@ -213,4 +212,15 @@ body{
       margin-right: 0px;
   }
   
-  
+  .aboutIndent{
+      text-indent: 45px;
+  }
+  .font25{
+      font-size: 25px;
+  }
+  .white{
+      background-color: white;
+  }
+  .buttonMarginLeft{
+      margin-left: 300px;
+  }
