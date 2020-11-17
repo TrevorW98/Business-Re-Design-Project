@@ -147,9 +147,7 @@ body{
     font-family: 'Oswald', sans-serif;
     color: black;
 }
-.menuBG{
-    background-color: #f5f7d7;
-}
+
 .menuFont{
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
@@ -236,7 +234,5 @@ body{
   .white{
       background-color: white;
   }
-  .buttonMarginLeft{
-      margin-left: 300px;
-  }
+  
   
