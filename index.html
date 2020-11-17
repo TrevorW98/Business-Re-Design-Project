@@ -23,7 +23,7 @@
       <div class="d-none d-sm-block"></div>
       <div class="col-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand brandMargin" href="#">
+          <a class="navbar-brand brandMargin">
             <i class="fas fa-hotdog fa-3x redText"></i>
           </a>
           <a>
@@ -38,7 +38,7 @@
               <li class="nav-item mr-5">
                 <a class="nav-link pageFont headerFontSize" href="#">Menu</a>
               </li>
-              <li class="nav-item n">
+              <li class="nav-item">
                 <a class="nav-link pageFont headerFontSize" href="#">Location</a>
               </li>
             </ul>
@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand largeMargin" href="#">
+          <a class="navbar-brand largeMargin">
             <i class="fas fa-hotdog fa-3x redText"></i>
           </a>
           <a>
@@ -81,7 +81,7 @@
     <div class="row center">
       <div class="col-12 center">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" >
             <i class="fas fa-hotdog fa-3x redText"></i>
           </a>
           <a>
@@ -93,7 +93,7 @@
     <div class="row">
       <div class="col-12 center">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </button>
@@ -110,7 +110,7 @@
     <div class="row center">
       <div class="col-12 center">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand">
             <i class="fas fa-hotdog fa-2x redText"></i>
           </a>
           <a>
@@ -122,7 +122,7 @@
     <div class="row">
       <div class="col-12 center">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-label="Dropdown Menu Button"
             aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </button>
@@ -136,27 +136,27 @@
     </div>
   </div>
   <!-- Hero image Area -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 noPadding">
-        <img src="./images/hotDogHero.jpg" alt="A delicious and extensive set of hot dogs." width="100%" height="100%">
+  <div class="container-fluid mb-5">
+    <div class="row center">
+      <div class="col-11 noPadding">
+        <img src="./images/hotDogHero.jpg" alt="A delicious and extensive set of hot dogs." width="100%" height="auto">
       </div>
     </div>
   </div>
   <!-- Covid Protocol and Hours for lg and above -->
-  <div class="container-fluid d-none d-lg-block mt-5">
+  <div class="container-fluid d-none d-lg-block">
     <div class="row spaceBetween">
       <div class="col-1"></div>
-      <div class="col-5 ">
+      <div class="col-5">
         <div class="alert alert-primary rounded-lg" role="alert">
-          <p class="alert-heading pageFont headerFontSize center">Covid-19 Protocol</p>
+          <p class="alert-heading pageFont headerFontSize center ">Covid-19 Protocol</p>
           <hr>
           <div class="row">
             <div class="col-6 ulMargin1">
               <p class="pageFont alertFont">Due to the current pandemic, the following restrictions are in place to help
                 prevent the spread of Covid-19:</p>
             </div>
-            <div class="col-6 ulMargin1">
+            <div class="col-6 ulMargin1 marginBottomAlert1">
               <ul>
                 <li>
                   <p class="pageFont alertFont">
@@ -237,7 +237,7 @@
     <div class="row center">
       <div class="col-10">
         <div class="alert alert-primary rounded-lg" role="alert">
-          <p class="alert-heading pageFont alertFont center">Covid-19 Protocol</p>
+          <p class="alert-heading pageFont alertFont center ">Covid-19 Protocol</p>
           <hr>
           <div class="row">
             <div class="col-6">
@@ -270,7 +270,7 @@
     <div class="row center">
       <div class="col-10">
         <div class="alert alert-primary rounded-lg" role="alert">
-          <p class="alert-heading pageFont alertFont center">Hours</p>
+          <p class="alert-heading pageFont alertFont center ">Hours</p>
           <hr>
           <div class="row">
             <div class="col-6 ">
@@ -325,8 +325,8 @@
   <div class="container-fluid d-block d-sm-none mt-3">
     <div class="row center">
       <div class="col-10">
-        <div class="alert alert-primary rounded-lg" role="alert">
-          <p class="alert-heading pageFont alertFont2 center">Covid-19 Protocol</p>
+        <div class="alert alert-primary rounded-lg " role="alert">
+          <p class="alert-heading pageFont alertFont2 center ">Covid-19 Protocol</p>
           <hr>
           <div class="row">
             <div class="col-6">
@@ -359,7 +359,7 @@
     <div class="row center">
       <div class="col-10">
         <div class="alert alert-primary rounded-lg" role="alert">
-          <p class="alert-heading pageFont alertFont2 center">Hours</p>
+          <p class="alert-heading pageFont alertFont2 center ">Hours</p>
           <hr>
           <div class="row">
             <div class="col-12">
@@ -440,7 +440,22 @@
       </div>
     </div>
   </div>
-
+  <!-- Menu button -->
+  <div class="container-fluid mt-5">
+    <div class="row center">
+      <div class="col-xs-10 col-md-6">
+        <button id="menuBtn" type="button" class="btn btn-primary menuFont btn-lg btn-block buttonBg headerFontSm">View Full Menu</button>
+      </div>
+    </div>
+  </div>
+  <!-- Menu Injection Area -->
+  <div class="container-fluid mt-5">
+    <div class="row center">
+      <div class="col-xs-12 col-lg-10" id="injectHere">
+        
+      </div>
+    </div>
+  </div>
 
 
 

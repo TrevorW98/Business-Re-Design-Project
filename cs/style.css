@@ -1,13 +1,18 @@
 a:hover{
-    color: rgb(208, 4, 4);
+    color: rgb(189, 9, 9);
 }
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(0, 0, 0);
+    margin: 1em 0; padding: 0; }
+    
 .redText
 {
-      color: rgb(208, 4, 4);
+    color: rgb(189, 9, 9);
 }
 
 body{
-    background-image: url(../images/textureWhite.jpg);
+    background-image: url(../images/2022223.jpg);
+    height: 100%;
 }
 
 .dadsFont{
@@ -22,8 +27,13 @@ body{
     font-size: 45px;
 }
 
-.hotDogHero{
-    background-image: url(/images/hotDogHero.jpg);
+.hero-image{
+    background-image: url("./images/hotDogHero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .noPadding{
     padding: 0 !important;
@@ -55,7 +65,7 @@ body{
 }
 .homeFont{
     font-family: 'Oswald', sans-serif;
-    color: rgb(208, 4, 4);
+    color: rgb(189, 9, 9);
 }
 .ulMargin1{
     margin-top: 25px;
@@ -83,4 +93,26 @@ body{
 }
 .alertFont3{
     font-size: 15px;
+}
+.marginBottomAlert1{
+  margin-bottom: 28px;
+}
+.menuHeader{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.menuBG{
+    background-color: #f5f7d7;
+}
+.menuFont{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.alertColor{
+    background-color: #f5f7d7;
+}
+.menuXsFont{
+    font-size: 20px;
 }
