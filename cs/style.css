@@ -26,9 +26,11 @@ body{
 }
 
 .dadFontSize {
-  font-size: 35px;
+  font-size: 45px;
 }
-
+.headerFontSize{
+    font-size: 40px;
+}
 .center{
   display: flex;
   justify-content: center;
@@ -116,6 +118,9 @@ body{
 }
 .smXsFont{
     font-size: 30px;
+}
+.alertFont{
+    font-size: 25px;
 }
 .alertFont2{
     font-size: 20px;
