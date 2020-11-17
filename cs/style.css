@@ -111,8 +111,14 @@ body{
     color: black;
 }
 .alertColor{
-    background-color: #f5f7d7;
+    background-color: #CCE5FF;
 }
 .menuXsFont{
     font-size: 20px;
+}
+.aboutIndent{
+    text-indent: 35px;
+}
+.aboutBg{
+    background-color:  #f5f7d7;
 }
