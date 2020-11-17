@@ -1,11 +1,20 @@
-.redText {
-  color: red;
+
+a:hover{
+    color: rgb(189, 9, 9);
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(0, 0, 0);
+    margin: 1em 0; padding: 0; }
+    
+.redText
+{
+    color: rgb(189, 9, 9);
 }
 
-body {
-  background-image: url(../images/textureWhite.jpg);
-  background-repeat: repeat;
-  
+body{
+    background-image: url(../images/2022223.jpg);
+    height: 100%;
+
 }
 
 .dadsFont {
@@ -20,10 +29,21 @@ body {
   font-size: 35px;
 }
 
-
 .center{
   display: flex;
   justify-content: center;
+  
+.noPadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.LinksSpacing {
+    padding-right: 8%;
+}
+.pageFont{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+
 }
 
 .textMove{
@@ -41,9 +61,14 @@ body {
   height: 700px;
 }
 
+
 .imageSizeTwo{
   width: 100%;
   height: auto;
+
+.brandMargin{
+    margin-left: 60px;
+
 }
 
 .imageSizeThree
@@ -52,9 +77,15 @@ body {
   height: 275px;
 }
 
+
 .imageLarger{
   width: 105%;
   height: auto;
+
+.homeFont{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(189, 9, 9);
+
 }
 
 .getThicc{
@@ -72,7 +103,49 @@ body {
   
 }
 
+
 .awardTwentyOneFour{
   width: 88%;
   height: auto;
+
+.largeMargin{
+    margin-left: 30px;
+}
+.headerFontSm{
+    font-size: 30px
+}
+.dropdownMargin{
+    margin-top: 40px;
+}
+.smXsFont{
+    font-size: 30px;
+}
+.alertFont2{
+    font-size: 20px;
+}
+.alertFont3{
+    font-size: 15px;
+}
+.marginBottomAlert1{
+  margin-bottom: 28px;
+}
+.menuHeader{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.menuBG{
+    background-color: #f5f7d7;
+}
+.menuFont{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.alertColor{
+    background-color: #f5f7d7;
+}
+.menuXsFont{
+    font-size: 20px;
+
 }

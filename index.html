@@ -16,13 +16,13 @@
 </head>
 
 <body>
-  <!-- Nav Bar -->
-  <div class="container-fluid mb-4">
+  <!-- Nav Bar for xl screens -->
+  <div class="container-fluid mb-3 d-none d-xl-block">
     <div class="row">
       <div class="d-none d-sm-block"></div>
       <div class="col-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand brandMargin" href="#">
+          <a class="navbar-brand brandMargin">
             <i class="fas fa-hotdog fa-3x redText"></i>
           </a>
           <a>
@@ -50,24 +50,50 @@
 
     </div>
   </div>
-  <!-- Hero image Area -->
-  <div class="container-fluid">
+  <!-- Navbar for lg screens -->
+  <div class="container-fluid mb-3 d-none d-lg-block d-xl-none">
     <div class="row">
-
-      <div class="col-1 d-none d-sm-block"></div>
-
-
-      <div class="col">
-        <div class="hotDogHero">
-          <p>Takes Up Space</p>
-        </div>
-
-
-
-        <div class="col-1 d-none d-sm-block"></div>
-
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand largeMargin">
+            <i class="fas fa-hotdog fa-3x redText"></i>
+          </a>
+          <a>
+            <p class="mt-3 dadsFont dadFontSize ml-2">DADS Dogs</p>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav flex-row flex-wrap center">
+              <li class="nav-item mr-3">
+                <a class="nav-link homeFont headerFontSize" href="#">Home</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link pageFont headerFontSize" href="#">Menu</a>
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link pageFont headerFontSize" href="#">Location</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
+  </div>
+  <!-- Navbar for medium -->
+  <div class="container-fluid mb-3 d-none d-sm-block d-lg-none">
+    <div class="row center">
+      <div class="col-12 center">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" >
+            <i class="fas fa-hotdog fa-3x redText"></i>
+          </a>
+          <a>
+            <p class="mt-3 dadsFont dadFontSize">DADS Dogs</p>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
 
     <!-- Header to Carousel -->
 
@@ -282,6 +308,91 @@
             <img class="card-img-top" src="./images/review2.jpg" alt="a man confused by all his food">
             <div class="card-body ">
               <p class="card-text raleway mb-2">"Food was amazing. We got the LA dog, Chicago dog, fries."</p>
+
+      <div class="col-12 center">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item pageFont" href="#">Menu</a>
+            <a class="dropdown-item pageFont" href="#">Location</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Nav for XS and small -->
+  <div class="container-fluid mb-3 d-block d-sm-none">
+    <div class="row center">
+      <div class="col-12 center">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand">
+            <i class="fas fa-hotdog fa-2x redText"></i>
+          </a>
+          <a>
+            <p class="mt-3 dadsFont smXsFont ">DADS Dogs</p>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 center">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-label="Dropdown Menu Button"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item pageFont" href="#">Menu</a>
+            <a class="dropdown-item pageFont" href="#">Location</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Hero image Area -->
+  <div class="container-fluid mb-5">
+    <div class="row center">
+      <div class="col-11 noPadding">
+        <img src="./images/hotDogHero.jpg" alt="A delicious and extensive set of hot dogs." width="100%" height="auto">
+      </div>
+    </div>
+  </div>
+  <!-- Covid Protocol and Hours for lg and above -->
+  <div class="container-fluid d-none d-lg-block">
+    <div class="row spaceBetween">
+      <div class="col-1"></div>
+      <div class="col-5">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont headerFontSize center ">Covid-19 Protocol</p>
+          <hr>
+          <div class="row">
+            <div class="col-6 ulMargin1">
+              <p class="pageFont alertFont">Due to the current pandemic, the following restrictions are in place to help
+                prevent the spread of Covid-19:</p>
+            </div>
+            <div class="col-6 ulMargin1 marginBottomAlert1">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont">
+                    Limited indoor seating
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont">
+                    Bartop closed
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont">
+                    Mask required for entery
+                  </p>
+                </li>
+              </ul>
+
             </div>
           </div>
         </div>
@@ -295,6 +406,7 @@
         </div>
 
       </div>
+
 
       <div class="row px-4">
 
@@ -313,6 +425,31 @@
             <div class="card-body">
               <p class="card-text raleway mb-3">"So good! Their hot dogs are creative and super tasty"
               </p>
+
+      <div class="col-5">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont headerFontSize center">Hours</p>
+          <hr>
+          <div class="row">
+            <div class="col-6 ulMargin1">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont">
+                    Monday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont">
+                    Tuesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont">
+                    Wednesday: 9am-7pm
+                  </p>
+                </li>
+              </ul>
+
             </div>
           </div>
         </div>
@@ -329,6 +466,7 @@
       </div>
     </div>
 
+
     <!-- Card Set for Tablets  -->
     <div class="container-fluid d-none d-md-block d-lg-none">
       <div class="row px-4 ">
@@ -339,6 +477,183 @@
             <img class="card-img-top" src="./images/review1.3.jpg" alt="nice lady eating a corndog">
             <div class="card-body">
               <p class="card-text raleway">"Highly recommend this place if you're craving hot dogs or burgers."</p>
+
+  </div>
+  <!-- Covid protocol and hours for medium and sm -->
+  <div class="container-fluid d-none d-sm-block d-lg-none mt-3">
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont center ">Covid-19 Protocol</p>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <p class="pageFont alertFont2">Due to the current pandemic, the following restrictions are in place to help
+                prevent the spread of Covid-19:</p>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Limited indoor seating
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Bartop closed
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Mask required for entery
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont center ">Hours</p>
+          <hr>
+          <div class="row">
+            <div class="col-6 ">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Monday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Tuesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Wednesday: 9am-7pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Thursday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Friday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Saturday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont2">
+                    Sunday: 10am-6pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Covid protocol and hours for xs -->
+  <div class="container-fluid d-block d-sm-none mt-3">
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg " role="alert">
+          <p class="alert-heading pageFont alertFont2 center ">Covid-19 Protocol</p>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <p class="pageFont alertFont3">Due to the current pandemic, the following restrictions are in place to help
+                prevent the spread of Covid-19:</p>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Limited indoor seating
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Bartop closed
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Mask required for entery
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-10">
+        <div class="alert alert-primary rounded-lg" role="alert">
+          <p class="alert-heading pageFont alertFont2 center ">Hours</p>
+          <hr>
+          <div class="row">
+            <div class="col-12">
+              <ul>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Monday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Tuesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Wednesday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Thursday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Friday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Saturday: 9am-7pm
+                  </p>
+                </li>
+                <li>
+                  <p class="pageFont alertFont3">
+                    Sunday: 10am-6pm
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
             </div>
           </div>
         </div>
@@ -396,6 +711,7 @@
 
     </div>
 
+
     <div class="d-lg-none d-md-none">
 
       <div class="container-fluid">
@@ -415,6 +731,25 @@
               many options!"</p>
             <p class="reviewText textCenter">"This place is hot dog heaven. Very cool concept and design!"</p>
           </div>
+
+  </div>
+  <!-- Menu button -->
+  <div class="container-fluid mt-5">
+    <div class="row center">
+      <div class="col-xs-10 col-md-6">
+        <button id="menuBtn" type="button" class="btn btn-primary menuFont btn-lg btn-block buttonBg headerFontSm">View Full Menu</button>
+      </div>
+    </div>
+  </div>
+  <!-- Menu Injection Area -->
+  <div class="container-fluid mt-5">
+    <div class="row center">
+      <div class="col-xs-12 col-lg-10" id="injectHere">
+        
+      </div>
+    </div>
+  </div>
+
 
         
         </div>
