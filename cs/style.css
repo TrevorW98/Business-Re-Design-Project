@@ -21,13 +21,20 @@ body {
 }
 
 
-
-
-
 .center{
   display: flex;
   justify-content: center;
 }
+
+.textMove{
+  display: flex;
+  align-items: center;
+}
+
+.textCenter{
+  text-align: center;
+}
+
 
 .imageSize{
   width: 100%;
@@ -45,14 +52,20 @@ body {
   height: 275px;
 }
 
+.imageLarger{
+  width: 105%;
+  height: auto;
+}
+
+.getThicc{
+  width:65%;
+}
+
 .reviewText{
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
-.textCenter{
-  text-align: center;
-}
 
 .awardBg{
   background-color: #CCE5FF;
