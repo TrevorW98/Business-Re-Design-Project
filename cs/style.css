@@ -1,86 +1,151 @@
-a:hover{
-    color: rgb(208, 4, 4);
+a:hover {
+  color: rgb(208, 4, 4);
 }
-.redText
-{
-      color: rgb(208, 4, 4);
-}
-
-body{
-    background-image: url(../images/textureWhite.jpg);
+.redText {
+  color: rgb(208, 4, 4);
 }
 
-.dadsFont{
-    font-family: 'Luckiest Guy', cursive;
+body {
+  background-image: url(../images/textureWhite.jpg);
 }
 
-.raleway{
-    font-family: 'Raleway', sans-serif;
+.dadsFont {
+  font-family: "Luckiest Guy", cursive;
 }
 
-.dadFontSize{
-    font-size: 45px;
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
 
-.hotDogHero{
-    background-image: url(/images/hotDogHero.jpg);
+.dadFontSize {
+  font-size: 45px;
 }
-.noPadding{
-    padding: 0 !important;
-    margin: 0 !important;
+
+.hotDogHero {
+  background-image: url(/images/hotDogHero.jpg);
+}
+.noPadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .LinksSpacing {
-    padding-right: 8%;
+  padding-right: 8%;
 }
-.pageFont{
-    font-family: 'Oswald', sans-serif;
-    color: black;
+.pageFont {
+  font-family: "Oswald", sans-serif;
+  color: black;
 }
-.headerFontSize{
-    font-size: 35px;
+.headerFontSize {
+  font-size: 35px;
 }
-.center{
-    display: flex;
-    justify-content: center;
+.center {
+  display: flex;
+  justify-content: center;
 }
-.spaceBetween{
-    display: flex;
-    justify-content: space-apart;
+.spaceBetween {
+  display: flex;
+  justify-content: space-apart;
 }
-.brandMargin{
-    margin-left: 60px;
+.brandMargin {
+  margin-left: 60px;
 }
-.alertFont{
-    font-size: 25px;
+.alertFont {
+  font-size: 25px;
 }
-.homeFont{
-    font-family: 'Oswald', sans-serif;
-    color: rgb(208, 4, 4);
+.homeFont {
+  font-family: "Oswald", sans-serif;
+  color: rgb(208, 4, 4);
 }
-.ulMargin1{
-    margin-top: 25px;
+.ulMargin1 {
+  margin-top: 25px;
 }
-.alertMarginLeft{
-    margin-left: 60px;
+.alertMarginLeft {
+  margin-left: 60px;
 }
-.alertMarginRight{
-    margin-right: 60px;
+.alertMarginRight {
+  margin-right: 60px;
 }
-.largeMargin{
-    margin-left: 30px;
+.largeMargin {
+  margin-left: 30px;
 }
-.headerFontSm{
-    font-size: 30px
+.headerFontSm {
+  font-size: 30px;
 }
-.dropdownMargin{
-    margin-top: 40px;
+.dropdownMargin {
+  margin-top: 40px;
 }
-.smXsFont{
+.smXsFont {
+  font-size: 30px;
+}
+.alertFont2 {
+  font-size: 20px;
+}
+.alertFont3 {
+  font-size: 15px;
+}
+.redPill {
+  background-color: #eb8a90;
+  color: black;
+  border-radius: 160px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.medium-btn {
+  width: 100px;
+  height: 40px;
+}
+.rcorners1 {
+  border-radius: 20px;
+}
+.greenBox {
+  background-color: #42e2b8;
+}
+.commentBoxBig {
+  width: 500px;
+  height: 150px;
+}
+
+.textAlign {
+  text-align: center;
+}
+.footerColor {
+  background-color: #38b2b8;
+}
+
+.fa {
+    padding: 23px;
     font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #e2494b;
+    color: white;
+  }
+
+.marginLeft {
+    margin-left: 90px;
 }
-.alertFont2{
-    font-size: 20px;
+
+.marginRight {
+    margin-right: 0px;
 }
-.alertFont3{
-    font-size: 15px;
-}
+
