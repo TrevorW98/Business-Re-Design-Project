@@ -48,6 +48,22 @@ body{
     color: black;
 }
 
+.extraFont{
+  font-size: 14px;
+}
+
+.headerSize{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.headerText{
+    font-family: 'Paytone One', sans-serif;
+    
+    font-size: 30px;
+}
+
 .textMove{
   display: flex;
   align-items: center;
