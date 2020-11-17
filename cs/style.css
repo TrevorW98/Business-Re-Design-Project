@@ -32,11 +32,12 @@ body{
 .center{
   display: flex;
   justify-content: center;
-  
+}
 .noPadding{
     padding: 0 !important;
     margin: 0 !important;
 }
+
 .LinksSpacing {
     padding-right: 8%;
 }
@@ -66,9 +67,10 @@ body{
   width: 100%;
   height: auto;
 
+  
+}
 .brandMargin{
     margin-left: 60px;
-
 }
 
 .imageSizeThree
@@ -81,11 +83,10 @@ body{
 .imageLarger{
   width: 105%;
   height: auto;
-
+}
 .homeFont{
     font-family: 'Oswald', sans-serif;
     color: rgb(189, 9, 9);
-
 }
 
 .getThicc{
@@ -102,12 +103,10 @@ body{
   background-color: #CCE5FF;
   
 }
-
-
 .awardTwentyOneFour{
   width: 88%;
   height: auto;
-
+}
 .largeMargin{
     margin-left: 30px;
 }
