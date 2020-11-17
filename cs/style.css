@@ -44,7 +44,6 @@ body{
 .pageFont{
     font-family: 'Oswald', sans-serif;
     color: black;
-
 }
 
 .textMove{
@@ -224,3 +223,4 @@ body{
   .buttonMarginLeft{
       margin-left: 300px;
   }
+  
