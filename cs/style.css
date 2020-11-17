@@ -1,13 +1,16 @@
 a:hover{
-    color: rgb(208, 4, 4);
+    color: rgb(189, 9, 9);
+}
+button:hover{
+    color: rgb(189, 9, 9);
 }
 .redText
 {
-      color: rgb(208, 4, 4);
+      color: rgb(189, 9, 9);
 }
 
 body{
-    background-image: url(../images/textureWhite.jpg);
+    background-image: url(../images/2022223.jpg);
     height: 100%;
 }
 
@@ -61,7 +64,7 @@ body{
 }
 .homeFont{
     font-family: 'Oswald', sans-serif;
-    color: rgb(208, 4, 4);
+    color: rgb(189, 9, 9);
 }
 .ulMargin1{
     margin-top: 25px;
@@ -89,4 +92,20 @@ body{
 }
 .alertFont3{
     font-size: 15px;
+}
+.marginBottomAlert1{
+  margin-bottom: 28px;
+}
+.menuHeader{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(189, 9, 9);
+}
+.menuBG{
+    background-color: #f5f7d7;
+}
+.menuFont{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
 }
