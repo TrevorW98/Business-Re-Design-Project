@@ -66,9 +66,10 @@ body{
   width: 100%;
   height: auto;
 
+  
+}
 .brandMargin{
     margin-left: 60px;
-
 }
 
 .imageSizeThree
@@ -85,7 +86,6 @@ body{
 .homeFont{
     font-family: 'Oswald', sans-serif;
     color: rgb(189, 9, 9);
-
 }
 
 .getThicc{
