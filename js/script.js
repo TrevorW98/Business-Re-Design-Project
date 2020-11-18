@@ -6,6 +6,7 @@
 // Project #4
 // Business Redevelopment Site 
 
+let headerBtn = document.getElementById("headerBtn");
 let menuBtn = document.getElementById("menuBtn");
 let injectHere = document.getElementById("injectHere");
 let menuBool = false;
@@ -13,6 +14,10 @@ let menuBool = false;
 menuBtn.addEventListener("click", function(){
     loadData("../pages/menu.html","menuPage");
 });
+
+headerBtn.addEventListener("click",function(){
+    loadData("../pages/menu.html","menuPage");
+})
 
 function loadData(url,dataType){
     let xhttp = new XMLHttpRequest();
