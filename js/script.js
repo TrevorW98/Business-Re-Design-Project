@@ -8,7 +8,7 @@
 
 let menuBtn = document.getElementById("menuBtn");
 let injectHere = document.getElementById("injectHere");
-let menuBool =false;
+let menuBool = false;
 
 menuBtn.addEventListener("click", function(){
     loadData("../pages/menu.html","menuPage");
