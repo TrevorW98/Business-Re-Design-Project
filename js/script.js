@@ -1,3 +1,11 @@
+
+// Kenneth Martinez
+// Trevor Womack
+// Dylan McFarlin
+// 11-17-2020
+// Project #4
+// Business Redevelopment Site 
+
 let menuBtn = document.getElementById("menuBtn");
 let injectHere = document.getElementById("injectHere");
 let menuBool =false;
